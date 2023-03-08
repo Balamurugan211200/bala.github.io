@@ -1,0 +1,201 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Personal Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/f1bbc500b5.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="logo.png" class="logo">
+                    <ul id="sidemenu">
+                     <li><a href="#header">Home</a></li>
+                     <li><a href="#about">About</a></li>
+                     <li><a href="#activities">External activities</a></li>
+                     <li><a href="#projects">Projects</a></li>
+                     <li><a href="#contact">Contact</a></li>
+                     <i class="fas fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>B.E Mechanical Engineer</p>
+                    <h1>Hi, I'm<span> Balamurugan D</span></h1>
+                </div>
+
+            </div>
+        </div> 
+        <!------------------about----------------->  
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="BALAMURUGAN_D.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About me</h1>
+                        <p>I’m lucky to have had the opportunity to build a career by doing what I love.
+                            I’m thrilled to say that I’ve learned from so many trained professionals in 
+                            my field, but I know that I still have so much to learn from others in the industry.
+                            I’m a hard worker, a team player and excited to see what projects 
+                            could benefit from my unique skill set. I’d love to chat with you about 
+                            how we might work together in the future.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                           <li><span>C Programming</span></li>
+                           <li><span>Python Programming</span></li>
+                           <li><span>webdevelopment</span><br>HTML,CSS,JS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                           <li><span>2018-2022</span><br>B.E from Sri Krishna College of Engineering and Technology,Coimbatore</li>
+                           <li><span>2017-2018</span><br>HSC from Velammal Matriculation Higher Secondary School,Theni</li>
+                           <li><span>2015-2016</span><br>SSLC from Z.K.M.Matriculation Higher Secondary School,Bodinayakanur,Theni</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <!-------------------external activites----------------->
+        <div id="activities">
+            <div class="container">
+                <h1 class="sub-title">External-activities</h1>
+                <div class="activities-list">
+                    <div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <h2>Paper Publication</h2>
+                        <p>Title on Influence of Pitting Corrosion on TIG Welded joints of AA2024 Aluminium Alloy Joints.
+                            Published under licence by IOP Publishing Ltd | Journal of Physics: Conference Series.</p>
+                            <a href="https://iopscience.iop.org/article/10.1088/1742-6596/2115/1/012052/meta">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-hands"></i>
+                        <h2>Hands on Training</h2>
+                        <p>Hands on training program on Automobile IC engines & Training systems.
+                        Karivaradhan Vocational Training  Institute | 2019.</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-computer"></i>
+                        <h2>Intern</h2>
+                        <p>15 days virtual intern on E-Vehicle:TVS Training and services limited, Chennai | 2021.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------------portfolio--------------->
+        <div id="projects">
+            <div class="container">
+                <h1 class="sub-title">Projects</h1>
+                <div class="projects-list">
+                    <div class="project">
+                        <img src="e-bike.jpg">
+                        <div class="layer">
+                            <h3>Implementing Lean and Industry 4.0 Techniques for E-Vehicles</h3>
+                            <P>This Project is focussed on to deliver the frame work for e-bikes with the implementaion of 
+                                lean and industry 4.0.
+                            </P>
+                            <a href="https://scholar.google.co.in/scholar?q=Impacts+of+Industry+4.0+technologies+on+Lean+principles&hl=en&as_sdt=0&as_vis=1&oi=scholart"><i class="fa-solid fa-square-arrow-up-right"></i></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="car wheel.jpg">
+                        <div class="layer">
+                            <h3>Manual Multi Spindle Nut Runner</h3>
+                            <P>The main aim of the project is to design and fabricate a
+                                 four-wheeler nut removing tool for constriction and 
+                                 removing of four nuts in single time. 
+                            </P>
+                            <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=manual+multi+spindle+nut+runner&btnG="><i class="fa-solid fa-square-arrow-up-right"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!---------------------contact--------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-sharp fa-solid fa-paper-plane"></i>balamurugan211200@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>6382773201</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/theribala.theribala.560?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                            <a href=" https://twitter.com/BalaMur69641464?t=8YiyVESg6nU0CaZf1VxF-A&s=08"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://instagram.com/bala__2112?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/balamurugan-d-7a11a7199/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Bala<i class="fa-solid fa-heart"></i></p>
+            </div>
+        </div>
+        <script>
+            
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+            
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>   
+        <script>
+            var sidemenu=document.getElementById("sidemenu");
+            
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxyRe2mVzLxByBJxmtsMIB1fYTa01lmYkGZNhMKQtEPg92x0wuKr7ht17hyOjPPmpvVqA/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+    </body>
+</html>
